@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="icons">
+
+        <item>@drawable/enquiry</item>
+        <item>@drawable/editfile</item>
+        <item>@drawable/qrcode1</item>
+        <item>@drawable/scanqr</item>
+        <item>@drawable/settings</item>
+
+    </array>
+    <array name="colors">
+        <item>@android:color/holo_blue_light</item>
+        <item>@android:color/holo_green_dark</item>
+        <item>@android:color/holo_red_light</item>
+        <item>@android:color/holo_orange_light</item>
+        <item>@android:color/holo_purple</item>
+    </array>
+</resources>
