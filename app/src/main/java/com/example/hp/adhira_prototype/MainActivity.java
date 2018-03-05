@@ -1,4 +1,4 @@
-package com.example.hp.adhira_prototype.splashLogin;
+package com.example.hp.adhira_prototype;
 
 import android.content.Intent;
 import android.os.Handler;
@@ -10,8 +10,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-
-import com.example.hp.adhira_prototype.R;
 
 public class MainActivity extends AppCompatActivity {
 

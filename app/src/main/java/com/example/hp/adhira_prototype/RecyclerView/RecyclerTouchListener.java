@@ -1,4 +1,4 @@
-package com.example.hp.adhira_prototype.splashLogin.RecyclerView;
+package com.example.hp.adhira_prototype.RecyclerView;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

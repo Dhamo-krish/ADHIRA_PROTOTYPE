@@ -1,4 +1,4 @@
-package com.example.hp.adhira_prototype.splashLogin.Fragments;
+package com.example.hp.adhira_prototype.Fragments;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.example.hp.adhira_prototype.R;
-import com.example.hp.adhira_prototype.splashLogin.Adapters.maintypeAdapter;
+import com.example.hp.adhira_prototype.Adapters.maintypeAdapter;
 
 import java.util.ArrayList;
 

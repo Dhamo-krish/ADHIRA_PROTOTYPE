@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/backcolor"
-    tools:context="com.example.hp.adhira_prototype.splashLogin.Main2Activity">
+    tools:context="com.example.hp.adhira_prototype.Main2Activity">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">

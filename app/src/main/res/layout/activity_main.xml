@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#6C448D"
-    tools:context="com.example.hp.adhira_prototype.splashLogin.MainActivity">
+    tools:context="com.example.hp.adhira_prototype.MainActivity">
 
     <LinearLayout
         android:id="@+id/linearlay1"

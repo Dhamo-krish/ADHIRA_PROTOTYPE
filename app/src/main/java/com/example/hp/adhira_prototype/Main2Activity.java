@@ -1,11 +1,10 @@
-package com.example.hp.adhira_prototype.splashLogin;
+package com.example.hp.adhira_prototype;
 
 import android.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.example.hp.adhira_prototype.R;
-import com.example.hp.adhira_prototype.splashLogin.Fragments.maintype;
+import com.example.hp.adhira_prototype.Fragments.maintype;
 
 
 public class Main2Activity extends AppCompatActivity {

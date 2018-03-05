@@ -1,4 +1,4 @@
-package com.example.hp.adhira_prototype.splashLogin.RecyclerView;
+package com.example.hp.adhira_prototype.RecyclerView;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-import com.example.hp.adhira_prototype.splashLogin.Adapters.wallAdapter;
+import com.example.hp.adhira_prototype.Adapters.wallAdapter;
 
 import java.util.ArrayList;
 

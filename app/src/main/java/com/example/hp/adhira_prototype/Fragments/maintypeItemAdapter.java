@@ -1,4 +1,4 @@
-package com.example.hp.adhira_prototype.splashLogin.Fragments;
+package com.example.hp.adhira_prototype.Fragments;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.hp.adhira_prototype.R;
-import com.example.hp.adhira_prototype.splashLogin.Adapters.maintypeAdapter;
+import com.example.hp.adhira_prototype.Adapters.maintypeAdapter;
 
 import java.util.ArrayList;
 

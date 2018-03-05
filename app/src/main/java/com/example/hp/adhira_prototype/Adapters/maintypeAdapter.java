@@ -1,4 +1,4 @@
-package com.example.hp.adhira_prototype.splashLogin.Adapters;
+package com.example.hp.adhira_prototype.Adapters;
 
 /**
  * Created by HP on 11/16/2017.

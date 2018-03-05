@@ -1,4 +1,4 @@
-package com.example.hp.adhira_prototype.splashLogin;
+package com.example.hp.adhira_prototype;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -8,9 +8,9 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 
-import com.example.hp.adhira_prototype.R;
-import com.example.hp.adhira_prototype.splashLogin.Adapters.wallAdapter;
-import com.example.hp.adhira_prototype.splashLogin.RecyclerView.wallItemAdapter;
+import com.example.hp.adhira_prototype.Adapters.wallAdapter;
+import com.example.hp.adhira_prototype.Camera.ScannerQr;
+import com.example.hp.adhira_prototype.RecyclerView.wallItemAdapter;
 import com.ramotion.circlemenu.CircleMenuView;
 
 import java.util.ArrayList;
@@ -65,6 +65,10 @@ public class Main3Activity extends AppCompatActivity {
                 Intent i=new Intent(Main3Activity.this,Main2Activity.class);
                 i.putExtra("index",""+index);
                 startActivity(i);
+                if(index==3)
+                {
+                  startActivity(new Intent(Main3Activity.this, ScannerQr.class));
+                }
             }
         });
     }
