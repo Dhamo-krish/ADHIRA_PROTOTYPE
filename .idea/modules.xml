@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ADHIRA_PROTOTYPE.iml" filepath="$PROJECT_DIR$/ADHIRA_PROTOTYPE.iml" />
+      <module fileurl="file://C:\Users\HP\AndroidStudioProjects\Kailash Sir\Botique\ADHIRA_PROTOTYPE\ADHIRA_PROTOTYPE.iml" filepath="C:\Users\HP\AndroidStudioProjects\Kailash Sir\Botique\ADHIRA_PROTOTYPE\ADHIRA_PROTOTYPE.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\HP\AndroidStudioProjects\Kailash Sir\Botique\ADHIRA_PROTOTYPE\app\app.iml" filepath="C:\Users\HP\AndroidStudioProjects\Kailash Sir\Botique\ADHIRA_PROTOTYPE\app\app.iml" />
     </modules>
   </component>
 </project>
