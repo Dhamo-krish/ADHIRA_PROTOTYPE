@@ -34,7 +34,7 @@ public class Login extends AppCompatActivity {
     TextView signup;
     DatabaseReference dref,dref2;
     TextInputEditText e1,e2;
-    String user,pass,t;
+    String user,pass;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

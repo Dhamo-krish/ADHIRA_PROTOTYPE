@@ -29,7 +29,7 @@ public class Signup extends AppCompatActivity {
     TextInputEditText e1,e2,e3,e4;
     Button b;
     DatabaseReference dref;
-    String s1,s2,s3;
+    String s1,s2,s3,t;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
