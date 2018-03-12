@@ -12,4 +12,5 @@
     <color name="background">#7f8587</color>
     <color name="main_color">#ff9a00</color>
     <color name="secondary_color">#BDBDBD</color>
+    <color name="buttonfontcolor">#ffffff</color>
 </resources>
