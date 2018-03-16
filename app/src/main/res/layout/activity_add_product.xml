@@ -1,96 +1,170 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.hp.adhira_prototype.AddProduct"
-    android:orientation="vertical">
-
-    <include
-        android:id="@+id/tlb"
-        layout="@layout/toolbar" />
+    tools:context="com.example.hp.adhira_prototype.AddProduct">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <LinearLayout
+        <include
+            android:id="@+id/tlb"
+            layout="@layout/toolbar" />
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:textColor="@color/main_color"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Add Product:"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
-                android:textSize="25dp"
-                android:layout_weight="1"/>
-
-            <android.support.design.widget.FloatingActionButton
-                android:id="@+id/addproduct"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_margin="20dp"
-                app:srcCompat="@android:drawable/ic_input_add" />
-
-        </LinearLayout>
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/categorycard"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardElevation="5dp"
-            android:layout_margin="15dp">
+            android:layout_height="match_parent">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="vertical">
-                <EditText
-                    android:id="@+id/categoryname"
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="15dp"
-                    android:hint="Category Name"/>
+                    android:orientation="horizontal">
 
-                <Button
-                    android:textAllCaps="false"
-                    android:textColor="@color/buttonfontcolor"
-                    android:background="@drawable/button"
-                    android:id="@+id/categoryadd"
+                    <TextView
+                        android:layout_weight="1"
+                        android:textColor="@color/main_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Add Product:"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="25dp"/>
+
+                    <Button
+                        android:layout_margin="15dp"
+                        android:id="@+id/clear"
+                        android:textAllCaps="false"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:textSize="16dp"
+                        android:textColor="@color/buttonfontcolor"
+                        android:text="Clear"
+                        android:background="@drawable/button"/>
+
+                </LinearLayout>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/categorycard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="5dp"
+                    android:layout_margin="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/categoryname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="15dp"
+                            android:hint="Category Name"/>
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="15dp"
+                            android:hint="Product Code"/>
+
+                        <LinearLayout
+                            android:layout_margin="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:gravity="end">
+
+                            <Button
+                                android:layout_marginRight="10dp"
+                                android:id="@+id/categoryadd"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:background="@drawable/button"
+                                android:text="Add"
+                                android:textAllCaps="false"
+                                android:textColor="@color/buttonfontcolor"
+                                android:textSize="16dp" />
+
+                            <Button
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/finish"
+                                android:textAllCaps="false"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:textSize="16dp"
+                                android:textColor="@color/buttonfontcolor"
+                                android:text="Finish"
+                                android:background="@drawable/button"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_margin="15dp"
+                            android:gravity="center">
+
+                            <EditText
+                                android:layout_weight="1"
+                                android:id="@+id/clrname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:hint="Color"/>
+
+                            <EditText
+                                android:layout_weight="1"
+                                android:id="@+id/clrid"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:hint="Color Code"/>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <TextView
+                    android:textColor="@color/main_color"
                     android:layout_width="wrap_content"
-                    android:layout_height="35dp"
-                    android:textSize="16dp"
-                    android:text="Add"
-                    android:layout_marginRight="20dp"
-                    android:layout_gravity="end"
-                    android:layout_marginBottom="15dp"/>
+                    android:layout_height="wrap_content"
+                    android:text="Created Product:"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25dp"/>
+
+                <ListView
+                    android:id="@+id/productlist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="20dp"></ListView>
+
             </LinearLayout>
 
-        </android.support.v7.widget.CardView>
-
-        <TextView
-            android:textColor="@color/main_color"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Created Product:"
-            android:layout_marginLeft="20dp"
-            android:textSize="25dp"/>
-
-        <ListView
-            android:id="@+id/productlist"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_margin="20dp"></ListView>
+        </ScrollView>
 
     </LinearLayout>
 
-</LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addproduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+</RelativeLayout>
