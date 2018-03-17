@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.hp.adhira_prototype">
+
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
@@ -9,35 +10,70 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Appthem2">
-        <activity android:name=".Credentials.Login"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:fitsSystemWindows="true">
-
-        </activity>
-        <activity android:name=".Credentials.Signup"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Camera.ScannerQr" android:theme="@style/AppTheme.NoActionBar.FullScreen">
-
-        </activity>
-        <activity android:name=".Splash.Splash"
+        android:theme="@style/Apptheme2">
+        <activity
+            android:name=".Credentials.Login"
+            android:fitsSystemWindows="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Credentials.Signup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Camera.ScannerQr"
+            android:theme="@style/AppTheme.NoActionBar.FullScreen" />
+        <activity
+            android:name=".Splash.Splash"
             android:theme="@style/AppTheme.NoActionBar.FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".MainActivity"
-            android:theme="@style/Appthem2">
-
-        </activity>
+            android:theme="@style/Apptheme2" />
         <activity
             android:name=".Main2Activity"
-            android:theme="@style/Appthem2" />
-        <activity android:name=".Main3Activity"
-            android:theme="@style/Appthem2">
+            android:theme="@style/Apptheme2" />
+        <activity
+            android:name=".Main3Activity"
+            android:theme="@style/Apptheme2" />
+        <activity android:name=".AddProduct">
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name=".Enquiry">
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name=".MaterialDetails">
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name=".EnquiryEditSave">
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name=".Material" />
+        <activity android:name=".MyProfile">
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
         </activity>
     </application>
 

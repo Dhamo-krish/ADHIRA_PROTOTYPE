@@ -7,10 +7,10 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-    <style name="Appthem2" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    <style name="Apptheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#ff8c00</item>
+        <item name="colorPrimaryDark">#ff8c00</item>
+        <item name="colorAccent">#ff8c00</item>
     </style>
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
@@ -21,8 +21,8 @@
         <item name="colorControlActivated">#ffffff</item>
     </style>
     <style name="AppTheme.NoActionBar.FullScreen">
-    <item name="windowActionBar">false</item>
-    <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
     </style>
     <style name="MyAppearance" parent="TextAppearance.AppCompat">
